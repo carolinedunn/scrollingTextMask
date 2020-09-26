@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--Section 1 START-->
+<html>
+<body>
+
+<h1>Face Mask Scrolling Text</h1>
+
+<p>Enter the text for your scrolling face mask.</p>
+
+    <div class="form">
+        <form action="/" method="POST">
+            <input type="text" name="content" id="content">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+<!--Section 1 END-->
+
+<script>
+///////////////// Section 2 START////////////////////
+
+
+var th = "http://raspberrypi.local:5000/api/th";
+var clear = "http://raspberrypi.local:5000/api/clear";
+///////////////// Section 2 END////////////////////
+///////////////// Section 3 START////////////////////
+
+function thFunc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.open("GET", th);
+  document.getElementById("demo").innerHTML = "Status set to Tom's Hardware.";
+  xmlhttp.send();
+}
+function clearFunc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.open("GET", clear);
+  document.getElementById("demo").innerHTML = "Reset Matrix";
+  xmlhttp.send();
+}
+///////////////// Section 3 END////////////////////
+</script>
+
+</body>
+</html>
