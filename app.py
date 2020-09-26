@@ -22,6 +22,11 @@ ORDER = neopixel.GRB
 pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=matrixbrightness, auto_write=False, pixel_order=ORDER)
 rotation = 0
 
+#load your font
+font = ImageFont.truetype("LiberationMono-Regular.ttf", 8)
+#5x7.ttf font is easier to read and available for download for personal use from the Internet
+#font = ImageFont.truetype("5x7.ttf", 8)
+
 #for the Adafruit NeoMatrix grid
 def getIndex(x, y):        
     x = display_width-x-1    
@@ -41,9 +46,6 @@ if len(sys.argv) > 1:
     except ValueError:
         print("Usage: {} <rotation>".format(sys.argv[0]))
         sys.exit(1)
-
-# Load a 5x7 pixel font
-font = ImageFont.truetype("5x7.ttf", 8)
 
 def scrollText(text):
 # Measure the size of our text, we only really care about the width for the moment
