@@ -1,4 +1,3 @@
-# scrollingTextMask
 # How to Build a Scrolling-Text Face Mask with Raspberry Pi
 
 Express yourself through scrolling text across your face mask with a flex NeoPixel matrix and Raspberry Pi.
