@@ -2,7 +2,7 @@
 
 Express yourself through scrolling text across your face mask with a flex NeoPixel matrix and Raspberry Pi.
 
-Full Tutorial posted at: https://www.tomshwardware.com/how-to/raspberry-pi-text-face-mask 
+Full Tutorial posted at: https://www.tomshardware.com/how-to/raspberry-pi-text-face-mask 
 
 8x8 NeoPixel Flex Matrix Face Mask
 
@@ -16,4 +16,4 @@ Two 8x8 Flex NeoPixel Matrices Face Mask
 
 ![32GIF](https://github.com/carolinedunn/scrollingTextMask/blob/master/gif/32-shield.gif)
 
-Full Tutorial posted at: https://www.tomshwardware.com/how-to/raspberry-pi-text-face-mask 
+Full Tutorial posted at: https://www.tomshardware.com/how-to/raspberry-pi-text-face-mask 
